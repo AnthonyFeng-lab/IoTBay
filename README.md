@@ -6,7 +6,7 @@ JDK installation. (If this is setup correctly it will save us a step when Netbea
 - Download and install Netbeans (anything 12.x or higher should be fine)
 #
 ### Setup GlassFish
-Glassfish can be a massive pain to install correctly here are two ways that can work if you have trouble.
+Glassfish can be a massive pain to install correctly so here are two ways that can work if you have trouble.
 #### Download GlassFish in Netbeans
 - In Netbeans, navigate to __Tools__ > __Servers__ > __Add Server__
 - Choose GlassFish Server from the list and press __Next__
@@ -16,12 +16,12 @@ Glassfish can be a massive pain to install correctly here are two ways that can 
 - Press __Next__, leave the following page as it is and press __Finish__
 
 #### Download GlassFish Externally 
-- Download __GlassFist 5.0.1 - Full Platform__ from [this website](https://javaee.github.io/glassfish/download)
+- Download __GlassFish 5.0.1 - Full Platform__ from [this website](https://javaee.github.io/glassfish/download)
 - Unzip the contents.
 - In Netbeans, navigate to __Tools__ > __Servers__ > __Add Server__
 - Choose GlassFish Server from the list and press __Next__
 - Navigate to the GlassFish folder that you downloaded
-- Netbeans should recognise the installation with a message.
+- Netbeans should recognise the installation with a message
 - Press __Next__, leave the following page as it is and press __Finish__
 
 #
