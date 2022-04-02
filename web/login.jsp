@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="styles/bootstrap.css"/>
     </head>
     <body>
-        <form action="LoginServlet" method="post">
+        <form action="Welcome.jsp" method="post">
             
             <label for="Username">Username: </label><br>
             <input type="text" id="Username" name="Username"><br>
@@ -23,7 +23,6 @@
             
             <input type="submit"value="submit">
             <input type="reset">
-            <a href="/html/welcome.jsp">Welcome page</a>
         </form>  
     </body>
 </html>
