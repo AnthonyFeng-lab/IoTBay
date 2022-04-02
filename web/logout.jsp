@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 2 Apr 2022, 1:20:51 pm
+    Created on : 2 Apr 2022, 12:40:26 pm
     Author     : Alexa
 --%>
 
@@ -9,10 +9,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Index page</title>
+        <title>You have logged out.</title>
     </head>
     <body>
-       <li><a href="login.jsp">Login</a></li>
-       <li><a href="register.jsp">Register</a></li>
+        <h1><a href="index.jsp">Back to main page</a></h1>
     </body>
 </html>
