@@ -13,14 +13,18 @@
           <link rel="stylesheet" type="text/css" href="styles/bootstrap.css"/>
     </head>
     <body>
+        <%
+           String NAME = (String)request.getSession().getAttribute("userName");
+        %>
         <div class="container d-flex justify-content-center text-center" style="height: 75vh; width: 75vh;">
           <div class="row align-self-center">
-             <h1 class="mb-5 fw-bold">Welcome to the IoTBay Website!</h1>
+              <h1 class="mb-5 fw-bold">Welcome <%= NAME%> to the IoTBay Website!</h1>
                <ul class ="nav">
                     <li><a href="main.jsp">Home</a></li>
                     <li><a href="products.jsp">Products</a></li>
                     <li><a href="payment.jsp">Payment</a></li>
                     <li><a href="orders.jsp">Details</a></li>
+                    <li><a class="button" href="index.jsp">Logout</a></li>
                </ul>
           </div>
         </div>
