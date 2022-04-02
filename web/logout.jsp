@@ -4,9 +4,12 @@
     <title>LogOut</title>
 </head>
 <body>
-    <input type="button" onclick="alert('End session!')" value="Logout!><br>
-      session.invalidate();
-    <a href="/html/index.jsp">Home page</a>
-                             
+     <% session.invalidate();%>
+    <% response.sendRedirect("index.jsp") %>
+    <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  You have Successfully logged out.
+</div>
+                        
 </body>
-</html>-->
+</html>
