@@ -16,20 +16,16 @@
             String name = request.getParameter("name");
             String email = request.getParameter("email");
             String password = request.getParameter("password");
-            String dob = request.getParameter("dob");          
-           
-            session.setAttribute("userName",name);
+            String dob = request.getParameter("dob");
+            
         %>
         <h1> Welcome <%= name %></h1> 
-        <form action="main.jsp" method="post">
-        <p class="p">Your email is: <%= email%></p> 
-         <p class="p">Your name is: <%= name%></p> 
-          <p class="p">Your password is: <%= password %></p> 
-           <p class="p">Your DOB is: <%= dob %></p> 
+        <p class="p">Your email is: <%= email %></p> 
+         <p class="p">Your password is: <%= password %></p> 
+          <p class="p">Your DOB is: <%= dob %></p> 
           <div class="panel_div"> 
               <a class="button" href="index.jsp">Cancel</a>
-               <a class="submit" href="main.jsp">Main</a>
+               <a class="button" href="main.jsp">Main</a>
         </div>
-        </form>
     </body>
 </html>

@@ -17,7 +17,7 @@
         <div class="container d-flex justify-content-center text-center" style="height: 100vh; width: 40%">
             <div class="row align-self-center">
                 <h1 class="mb-5 fw-bold">Sign up for IoTBay!</h1>
-                <form action="Welcome.jsp" method="post" class="p-md-5 border rounded bg-light">
+                <form action="welcome.jsp" method="post" class="p-md-5 border rounded bg-light">
                     <div class="form-floating mb-3">
                         <input type="email" class="form-control" name="email" id="floatingEmail" placeholder=" ">
                         <label for="floatingEmail">Email Address</label>
@@ -33,15 +33,15 @@
                     <hr>
                     <div class="d-flex">
                         <div class="col me-2 form-floating mb-3">
-                            <input type="text" class="form-control" name="name" id="floatingFirstName" placeholder=" ">
+                            <input type="text" class="form-control" name="firstName" id="floatingFirstName" placeholder=" ">
                             <label for="floatingFirstName">First Name</label>
                         </div>
                         <div class="col form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingLastName" placeholder=" ">
+                            <input type="text" class="form-control" name="lastName" id="floatingLastName" placeholder=" ">
                             <label for="floatingLastName">Last Name</label>
                         </div>
                     </div>
-                    <input type="submit" class="btn btn-lg btn-primary w-100" value="Sign Up">
+                    <input type="submit"  class="btn btn-lg btn-primary w-100" value="Sign Up">
                 </form>
             </div>
         </div>

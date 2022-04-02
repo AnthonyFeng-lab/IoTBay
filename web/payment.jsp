@@ -21,7 +21,6 @@
                     <li><a href="products.jsp">Products</a></li>
                     <li><a href="payment.jsp">Payment</a></li>
                     <li><a href="orders.jsp">Details</a></li>
-                    <li><a class="button" href="logout.jsp">Logout</a></li>
                </ul>
           </div>
         </div>

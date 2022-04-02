@@ -8,6 +8,9 @@ public class User {
     private final int id;
     private String firstName;
     private String lastName;
+    private String email;
+    private String password;
+    private String dob; 
     private Role role;
     
     public User() {
@@ -17,10 +20,13 @@ public class User {
         role = Role.Guest;
     }
     
-    public User(int id, String firstName, String lastName, Role role) {
+    public User(int id, String firstName, String lastName, String email, String password, String dob, Role role) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.dob = dob;
         this.role = role;
     }
     
@@ -35,6 +41,16 @@ public class User {
     public String getFullName() { 
         return String.format("%s %s", firstName, lastName); 
     }
+    
+    public String getEmail() { return email; }
+    public void setEmail(String value) { email = value; }
+    
+     public String getPassword() { return password; }
+    public void setPassword(String value) { password = value; }
+    
+    public String getDob() { return dob; }
+    public void setDob(String value) { dob = value; }
+   
     
     public Role getRole() { return role; }
     public void setRole(Role value) { role = value; }

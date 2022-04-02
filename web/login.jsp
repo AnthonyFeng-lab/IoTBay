@@ -13,15 +13,16 @@
         <link rel="stylesheet" type="text/css" href="styles/bootstrap.css"/>
     </head>
     <body>
-        <form action="LoginServlet">
+        <form action="Welcome.jsp" method="post">
             
-            Please enter your username
-            <input type="text" name="un"/><br>
+            <label for="Username">Username: </label><br>
+            <input type="text" id="Username" name="Username"><br>
             
-            Please enter your password
-            <input type="text" name="pw"/>
+            <label for="pwd">Password: </label><br>
+            <input type="password" id="pwd" name="pwd"><br>
             
             <input type="submit"value="submit">
+            <input type="reset">
         </form>  
     </body>
 </html>
