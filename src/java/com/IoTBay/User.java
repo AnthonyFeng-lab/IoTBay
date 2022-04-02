@@ -38,8 +38,14 @@ public class User {
     public String getLastName() { return lastName; }
     public void setLastName(String value) { lastName = value; }
     
-    public String getemail() { return email; }
-    public void setemail(String value) { email = value; }
+    public String getEmail() { return email; }
+    public void setEmail(String value) { email = value; }
+    
+     public String getPassword() { return password; }
+    public void setPassword(String value) { password = value; }
+    
+    public String getDob() { return dob; }
+    public void setDob(String value) { dob = value; }
     
     public String getFullName() { 
         return String.format("%s %s", firstName, lastName); 
