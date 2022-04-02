@@ -8,6 +8,9 @@ public class User {
     private final int id;
     private String firstName;
     private String lastName;
+    private String email;
+    private String password;
+    private String dob; 
     private Role role;
     
     public User() {
@@ -21,6 +24,9 @@ public class User {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.dob = dob;
         this.role = role;
     }
     
@@ -31,6 +37,9 @@ public class User {
     
     public String getLastName() { return lastName; }
     public void setLastName(String value) { lastName = value; }
+    
+    public String getemail() { return email; }
+    public void setemail(String value) { email = value; }
     
     public String getFullName() { 
         return String.format("%s %s", firstName, lastName); 
