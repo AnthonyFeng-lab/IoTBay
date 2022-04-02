@@ -20,7 +20,7 @@ public class User {
         role = Role.Guest;
     }
     
-    public User(int id, String firstName, String lastName, Role role) {
+    public User(int id, String firstName, String lastName, String email, String password, String dob, Role role) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -38,6 +38,10 @@ public class User {
     public String getLastName() { return lastName; }
     public void setLastName(String value) { lastName = value; }
     
+    public String getFullName() { 
+        return String.format("%s %s", firstName, lastName); 
+    }
+    
     public String getEmail() { return email; }
     public void setEmail(String value) { email = value; }
     
@@ -46,10 +50,7 @@ public class User {
     
     public String getDob() { return dob; }
     public void setDob(String value) { dob = value; }
-    
-    public String getFullName() { 
-        return String.format("%s %s", firstName, lastName); 
-    }
+   
     
     public Role getRole() { return role; }
     public void setRole(Role value) { role = value; }
