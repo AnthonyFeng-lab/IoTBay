@@ -19,11 +19,11 @@
                 <h1 class="mb-5 fw-bold">Sign up for IoTBay!</h1>
                 <form action="welcome.jsp" method="post" class="p-md-5 border rounded bg-light">
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingEmail" placeholder=" ">
+                        <input type="email" class="form-control" name="email" id="floatingEmail" placeholder=" ">
                         <label for="floatingEmail">Email Address</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="password" class="form-control" id="floatingPassword" placeholder=" ">
+                        <input type="password" class="form-control" name="password" id="floatingPassword" placeholder=" ">
                         <label for="floatingPassword">Password</label>
                     </div>
                     <div class="form-floating mb-3">
@@ -33,15 +33,15 @@
                     <hr>
                     <div class="d-flex">
                         <div class="col me-2 form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingFirstName" placeholder=" ">
+                            <input type="text" class="form-control" name="firstName" id="floatingFirstName" placeholder=" ">
                             <label for="floatingFirstName">First Name</label>
                         </div>
                         <div class="col form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingLastName" placeholder=" ">
+                            <input type="text" class="form-control" name="lastName" id="floatingLastName" placeholder=" ">
                             <label for="floatingLastName">Last Name</label>
                         </div>
                     </div>
-                    <input type="button" class="btn btn-lg btn-primary w-100" value="Sign Up">
+                    <input type="submit"  class="btn btn-lg btn-primary w-100" value="Sign Up">
                 </form>
             </div>
         </div>
